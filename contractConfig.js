@@ -3,6 +3,11 @@ import { ethers } from "https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethe
 // Constants
 // export const VALENTINE_ADDRESS = '0xf5F4A8e3C1e11623D83a23E50039407F11dCD656'; // sepolia
 export const VALENTINE_ADDRESS = '0xc82cE02df7D108D3A7D260B45aA69E9ec4013CEB'; // polygon
+const NETWORK_NAME = 'Polygon';
+const NETWORK_SYMBOL = 'POL';
+const NETWORK_ID = '137';
+const RPC_URL = 'https://polygon-bor-rpc.publicnode.com';
+const NETWORK_EXPLORER_URL = 'https://polygonscan.com';
 
 // const NETWORK_NAME = 'Sepolia';
 // const NETWORK_SYMBOL = 'S.ETH';
