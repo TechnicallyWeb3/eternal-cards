@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentine's Day Message</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <div id="loading-screen">
+        <div class="loading-content">
+            <img src="path/to/your/logo.png" alt="Valentine NFT" class="loading-logo">
+            <div class="loading-spinner">
+                <div class="heart-spinner">💝</div>
+            </div>
+            <p class="loading-text">Loading your Valentine's experience...</p>
+        </div>
+    </div>
     <div class="hearts">
         <div class="heart">❤️</div>
         <div class="heart">❤️</div>
@@ -41,7 +53,8 @@
     </div>
 
     <div class="countdown-container minting-open" id="countdown-container">
-        <div class="countdown-label">Minting closes in:</div><div class="countdown">
+        <div class="countdown-label">Minting closes in:</div>
+        <div class="countdown">
             <div class="countdown-item days-section" style="display: none;">
                 <span id="days">00</span>
                 <span class="label">Days</span>
@@ -68,7 +81,8 @@
         <h2>💝 Valentine's NFT Instructions 💝</h2>
         <div id="instructions-content">
             <ul>
-                <li><span class="highlight">Minting is OPEN!</span> Valentine's NFTs are available until the end of the countdown!</li>
+                <li><span class="highlight">Minting is OPEN!</span> Valentine's NFTs are available until the end of the
+                    countdown!</li>
                 <li>Connect your wallet using the button in the top right</li>
                 <li>Enter your valentine's Polygon wallet address</li>
                 <li>Choose between a random Valentine's NFT or add your custom message</li>
@@ -87,42 +101,48 @@
             </div>
             <div class="price-note">*Gas fees not included</div>
         </div>
+        <div class="share-box">
+            <h3>💝 Share Your Valentine Link</h3>
+            <div class="share-message">
+                <textarea readonly class="share-text">💘 This Valentine's Day, let's make it special with an eternal gift - an immutable NFT valentine that will last forever on the blockchain! Join me at http://eternal.cards #Web3Valentine #NFTLove</textarea>
+            </div>
+        </div>
     </div>
 
     <div class="container">
         <div class="valentine-suggestions">
             <h2>Send a Valentine to...</h2>
             <div class="carousel-container">
-                <button class="carousel-button prev">❮</button>
+                <!-- <button class="carousel-button prev">❮</button> -->
                 <div class="profile-carousel">
                     <div class="profile-track">
                         <!-- Profile cards will be added here via JavaScript -->
                     </div>
                 </div>
-                <button class="carousel-button next">❯</button>
+                <!-- <button class="carousel-button next">❯</button> -->
             </div>
         </div>
         <div id="create-valentine" class="valentine-card" style="display: block;">
             <h2>Create Your Valentine</h2>
-            <div class="recipient-card">
-                <div class="input-group">
-                    <div class="address-input">
-                        <input type="text" id="recipientAddress" placeholder="Recipient's Polygon Address">
-                    </div>
-                    <div class="quantity-wrapper" id="quantity-wrapper">
-                        <span class="multiply">×</span>
-                        <input type="number" id="quantity" value="1" min="1" max="10" class="quantity-input">
-                    </div>
-                </div>
-                <div class="message-toggle">
-                    <input type="checkbox" id="customMessage" class="custom-checkbox">
-                    <label for="customMessage">Add Custom Message</label>
-                </div>
-                <textarea id="valentineMessage" placeholder="Write your sweet message here..." style="display: none;"></textarea>
+            <div class="recipients-container">
+                <!-- Recipient cards will be added here via JavaScript -->
             </div>
-            <button>Connect Wallet to Send</button>
+            <div class="button-container">
+                <button id="addRecipientButton" class="add-recipient-btn">Add Recipient</button>
+                <button id="sendValentineButton">Connect Wallet to Send</button>
+            </div>
         </div>
-        <div id="sentMessage" class="sent-message"></div>
+
+
+        <div id="sentMessage" class="sent-message "></div>
+        <div class="sent-valentines" style="display: none;">
+            <h2>Your Sent Valentines</h2>
+            <div class="valentines-grids">
+               
+            </div>
+
+        </div>
+
         <div class="received-valentines" style="display: none;">
             <h2>Your Received Valentines</h2>
             <div class="valentines-grid">
@@ -131,7 +151,7 @@
         </div>
     </div>
 
-    <div class="valentine-modal" id="valentineModal">
+    <!-- <div class="valentine-modal" id="valentineModal">
         <div class="modal-content">
             <button class="close-modal">×</button>
             <img class="modal-image" src="" alt="Valentine NFT">
@@ -141,11 +161,14 @@
                 <p class="message"></p>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.min.js" 
-            type="module" crossorigin="anonymous"></script>
-    <script src="contractConfig.js" type="module"></script>
-    <script src="script.js" type="module"></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.min.js"
+        crossorigin="anonymous"></script>
+    <script type="module" src="contractConfig.js"></script>
+    <script type="module" src="tiktokUtils.js"></script>
+    <script type="module" src="script.js"></script>
 
- </body></html>
+</body>
+
+</html>
