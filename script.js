@@ -72,6 +72,21 @@ const profiles = [
         image: "./images/travis.jpeg",
         address: "0x92D8919046fe3da1E5676b0C9f8d8d33da7c724e"
     },
+    {
+        name: "Cosmic Crypto 🚀🫡",
+        image: "./images/cosmic_crypto.jpeg",
+        address: "0xa84FdD6fcde01dC48a501D59fb71e1a7be736875"
+    },
+    {
+        name: "mike390167",
+        image: "./images/mike390167.jpeg",
+        address: "0x02bb334cA70C8599a3A6654ed18CF412Bc980CdF"
+    },
+    {
+        name: "Amathyst 🏳️‍🌈🇨🇦",
+        image: "./images/amathyst.jpeg",
+        address: "0x7BF55C86d66c7109F2996dF0483Ffcb1Aa5e4383"
+    },
 
 ];
 
