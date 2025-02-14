@@ -87,11 +87,24 @@ const profiles = [
         image: "./images/amathyst.jpeg",
         address: "0xc7619a9391144fBA90021c20AEDddfC49B18B0bC"
     },
-    // {
-    //     name: "➕TheBaconSandwich.crypto",
-    //     image: "./images/bacon.jpeg",
-    //     address: "0x161bf804F9E50eE203024335Ce927dCB411aE946"
-    // },
+    {
+        name: "Conversations with Evan",
+        image: "./images/evan.jpeg",
+        address: "0xc7619a9391144fBA90021c20AEDddfC49B18B0bC"
+    },    {
+        name: "Alex Popovic",
+        image: "./images/alex.jpeg",
+        address: "0x95aa7175E31CA5D449d99AEc428F2B55E4b8Cf7e"
+    },    {
+        name: "William Watson",
+        image: "./images/will.jpeg",
+        address: "0x3680318Ea2956c7AbDb32b3Ebd7F867Dc95Fd0c0"
+    },
+    {
+        name: "➕TheBaconSandwich.crypto",
+        image: "./images/bacon.jpeg",
+        address: "0x161bf804F9E50eE203024335Ce927dCB411aE946"
+    },
 
 ];
 
