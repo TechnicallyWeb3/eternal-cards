@@ -85,8 +85,13 @@ const profiles = [
     {
         name: "Amathyst 🏳️‍🌈🇨🇦",
         image: "./images/amathyst.jpeg",
-        address: "0x7BF55C86d66c7109F2996dF0483Ffcb1Aa5e4383"
+        address: "0xc7619a9391144fBA90021c20AEDddfC49B18B0bC"
     },
+    // {
+    //     name: "➕TheBaconSandwich.crypto",
+    //     image: "./images/bacon.jpeg",
+    //     address: "0x161bf804F9E50eE203024335Ce927dCB411aE946"
+    // },
 
 ];
 
