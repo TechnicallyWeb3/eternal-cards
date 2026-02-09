@@ -14,12 +14,12 @@ let receivedObserver; // Add this global variable to store the observer for the 
 const profiles = [
     {
         name: "Vitalik Buterin",
-        image: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Vitalik_Buterin_TechCrunch_London_2015_%28cropped%29.jpg",
+        image: "./images/vitalik.jpeg",
         address: "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
     },
     {
         name: "Gary Veynerchuck",
-        image: "https://i.seadn.io/gae/YX3nBiTQ1N7Pa6ymJTD2I9ihuxiwVY-gvBloyt5vf8QMitXYKX_KEdf7FyfTGaD9BObTmO6E4OzDUKrsli0w8B7xRc-jqJnqhIxu5Q?auto=format&dpr=1&w=256",
+        image: "./images/garyvee.jpeg",
         address: "0x5ea9681c3ab9b5739810f8b91ae65ec47de62119"
     },
     {
@@ -29,12 +29,12 @@ const profiles = [
     },
     {
         name: "Paris Hilton",
-        image: "https://i.seadn.io/gcs/files/4351d491a6e60dc3915d555762e5dadb.jpg?auto=format&dpr=1&w=256",
+        image: "./images/parishilton.jpeg",
         address: "0xB6Aa5a1AA37a4195725cDF1576dc741d359b56bd"
     },
     {
         name: "Steve Aoki",
-        image: "https://i.seadn.io/gae/FDYglkKVkwubS6YrgjWa8Nqa6E47sccB41Va7u0OlvmQwUiOrKiCund13JVSXzLZx76ms--QcVgonfqCbMEBuUMTDmSy9mWsRt-d?auto=format&dpr=1&w=256",
+        image: "./images/steveaoki.jpeg",
         address: "0xe4bBCbFf51e61D0D95FcC5016609aC8354B177C4"
     },
     {
@@ -90,7 +90,7 @@ const profiles = [
     {
         name: "Conversations with Evan",
         image: "./images/evan.jpeg",
-        address: "0xc7619a9391144fBA90021c20AEDddfC49B18B0bC"
+        address: "0x2f39D00a1fc21F2Dc9EB5671147c7AE98f254b6A"
     },    {
         name: "Alex Popovic",
         image: "./images/alex.jpeg",
